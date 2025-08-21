@@ -10,12 +10,10 @@ public static class EngineExtensions
             return SDL3.SDL.SDL_AppResult.SDL_APP_FAILURE;
         }
 
-        
-
         var windowReference = SDL3.SDL.SDL_CreateWindow(
             "Game Playground",
             800, 600,
-            SDL3.SDL.SDL_WindowFlags.SDL_WINDOW_BORDERLESS
+            SDL3.SDL.SDL_WindowFlags.SDL_WINDOW_ALWAYS_ON_TOP
         );
 
         if (windowReference == IntPtr.Zero)

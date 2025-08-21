@@ -13,6 +13,16 @@
   </ItemGroup>
 
 	<ItemGroup>
+		<!-- Copy all files inside SDLLib (but not the folder itself) -->
+		<None Include="SDLLib\*.*">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+			<!-- Flatten the structure -->
+			<Link>%(Filename)%(Extension)</Link>
+		</None>
+	</ItemGroup>
+	
+	<ItemGroup>
 		<Content Include="Content/*">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</Content>

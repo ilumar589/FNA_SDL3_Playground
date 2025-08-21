@@ -20,8 +20,12 @@ static class Program
 
         static SDL3.SDL.SDL_AppResult sdl_AppEvent_Func(nint appstate, SDL3.SDL.SDL_Event* eventPtr)
         {
-            // Your event handling code here
-            Console.WriteLine("SDL AppEvent called!");
+            if (eventPtr->type == (uint)SDL3.SDL.SDL_EventType.SDL_EVENT_QUIT)
+            {
+                Console.WriteLine("SDL Quit event received!");
+                return SDL3.SDL.SDL_AppResult.SDL_APP_SUCCESS;
+            }
+
             return SDL3.SDL.SDL_AppResult.SDL_APP_CONTINUE;
         }
 

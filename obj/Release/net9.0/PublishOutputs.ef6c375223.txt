@@ -1,0 +1,13 @@
+C:\Projects\GameDev\FNAPlayground\GamePlayground\bin\Release\net9.0\publish\Content\FNATexture.jpg
+C:\Projects\GameDev\FNAPlayground\GamePlayground\bin\Release\net9.0\publish\GamePlayground.exe
+C:\Projects\GameDev\FNAPlayground\GamePlayground\bin\Release\net9.0\publish\FAudio.dll
+C:\Projects\GameDev\FNAPlayground\GamePlayground\bin\Release\net9.0\publish\FNA3D.dll
+C:\Projects\GameDev\FNAPlayground\GamePlayground\bin\Release\net9.0\publish\libtheorafile.dll
+C:\Projects\GameDev\FNAPlayground\GamePlayground\bin\Release\net9.0\publish\SDL3.dll
+C:\Projects\GameDev\FNAPlayground\GamePlayground\bin\Release\net9.0\publish\GamePlayground.dll
+C:\Projects\GameDev\FNAPlayground\GamePlayground\bin\Release\net9.0\publish\GamePlayground.deps.json
+C:\Projects\GameDev\FNAPlayground\GamePlayground\bin\Release\net9.0\publish\GamePlayground.runtimeconfig.json
+C:\Projects\GameDev\FNAPlayground\GamePlayground\bin\Release\net9.0\publish\GamePlayground.pdb
+C:\Projects\GameDev\FNAPlayground\GamePlayground\bin\Release\net9.0\publish\FNA.dll
+C:\Projects\GameDev\FNAPlayground\GamePlayground\bin\Release\net9.0\publish\FNA.pdb
+C:\Projects\GameDev\FNAPlayground\GamePlayground\bin\Release\net9.0\publish\FNA.dll.config

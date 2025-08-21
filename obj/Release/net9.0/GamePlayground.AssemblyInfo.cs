@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GamePlayground")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4681df5216cc1fbe38d1bc3d4da2b5e7a3bbdac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e935405f6dcdd8b4ed641349989454ae87fcea7a")]
 [assembly: System.Reflection.AssemblyProductAttribute("GamePlayground")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GamePlayground")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
