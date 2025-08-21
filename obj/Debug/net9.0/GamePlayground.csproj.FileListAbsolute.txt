@@ -18,3 +18,4 @@ C:\Projects\GameDev\FNAPlayground\GamePlayground\obj\Debug\net9.0\GamePlayground
 C:\Projects\GameDev\FNAPlayground\GamePlayground\obj\Debug\net9.0\GamePlayground.genruntimeconfig.cache
 C:\Projects\GameDev\FNAPlayground\GamePlayground\obj\Debug\net9.0\ref\GamePlayground.dll
 C:\Projects\GameDev\FNAPlayground\GamePlayground\bin\Debug\net9.0\Content\FNATexture.jpg
+C:\Projects\GameDev\FNAPlayground\GamePlayground\obj\Debug\net9.0\GamePlayground.sourcelink.json

@@ -48,7 +48,6 @@ public static class EngineExtensions
             RendererReference = renderer
         };
 
-        SDL3.SDL.SDL_Quit();
-        return SDL3.SDL.SDL_AppResult.SDL_APP_SUCCESS;
+        return SDL3.SDL.SDL_AppResult.SDL_APP_CONTINUE;
     }
 }

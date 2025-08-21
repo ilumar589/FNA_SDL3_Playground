@@ -15,14 +15,14 @@ static class Program
         {
             // Your iteration code here
             Console.WriteLine("SDL AppIterate called!");
-            return SDL3.SDL.SDL_AppResult.SDL_APP_SUCCESS;
+            return SDL3.SDL.SDL_AppResult.SDL_APP_CONTINUE;
         }
 
         static SDL3.SDL.SDL_AppResult sdl_AppEvent_Func(nint appstate, SDL3.SDL.SDL_Event* eventPtr)
         {
             // Your event handling code here
             Console.WriteLine("SDL AppEvent called!");
-            return SDL3.SDL.SDL_AppResult.SDL_APP_SUCCESS;
+            return SDL3.SDL.SDL_AppResult.SDL_APP_CONTINUE;
         }
 
         static SDL3.SDL.SDL_AppResult sDL_AppInit_Func(nint appstate, int argc, nint argv)
