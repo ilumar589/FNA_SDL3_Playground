@@ -5,6 +5,8 @@ static class Program
     [STAThread]
     static unsafe void Main(string[] args)
     {
+
+
         static void sdl_AppQuit_Func(nint appstate, SDL3.SDL.SDL_AppResult result)
         {
             // Your cleanup code here
