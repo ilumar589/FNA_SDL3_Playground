@@ -1,6 +1,6 @@
 ﻿namespace GamePlayground.Engine;
 
-public readonly ref struct RendererPtr
+public readonly record struct RendererPtr
 {
     public required nint RendererReference { get; init; }
 }
